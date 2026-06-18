@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#3a7abf" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="NeuroGeri" />
+    <!-- Fuentes self-hosted vía @fontsource (sin Google Fonts) para privacidad clínica y offline real -->
+
+    <!-- Seguridad: CSP estricta. Sin conexiones externas (offline-first + privacidad clínica). -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; manifest-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';" />
+
+    <!-- Evitar indexación por motores de búsqueda (app de uso clínico, no SEO) -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="NeuroGeri Calc — Calculadora de escalas clínicas psicogeriatría (PWA offline, uso profesional)" />
+
+    <title>NeuroGeri Calc</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

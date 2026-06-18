@@ -1,0 +1,9 @@
+dist
+node_modules
+coverage
+pnpm-lock.yaml
+package-lock.json
+*.min.js
+*.min.css
+CHANGELOG.md
+src/changelog.ts
